@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+<header class="header" id="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo" href="index.html" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+                <img class="logo header-logo" src="images/logo.png" alt="">
+            </a>  
+                  
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="news.html" data-aos="fade-down">Новости</a>
+                <a class="nav__link" href="tenants.html">Наши арендаторы</a>
+                <a class="nav__link" href="rent.html">Аренда офисов</a>
+                <a class="nav__link" href="contacts.html">Контакты</a>
+            </nav>
+            
+            <div class="header__box">
+                <a class="header__map" href="#" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1100">
+                    <img class="map__marker" src="images/marker.png" alt="">
+                    Московское шоссе, 41
+                </a>
+                <div class="header__phone">
+                    <a class="phone"  href="tel:+78005553535" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300">
+                        <img class="phone-img" src="images/phone.png" alt="">
+                        +7(123)456-78-91
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <button class="burger" type="button" id="navToggle">
+            <span class="burger__item">Menu</span>
+        </button>
+        
+    </div>
+</header>
+    
+    
+<div class="wrapper">
+<main class="main">
+
+    
+<div class="intro" id="intro" style="background-image: url(images/index/intro-bg.jpg);">
+    <div class="container">
+        <div class="intro__inner">
+            <div class="intro__box">
+                <div class="intro__title">Это – <br><span>офисный центр класса А в Самаре</span>
+                </div>
+                <div class="intro__btn">
+                    <a class="btn" href="about.html">о центре</a>
+                </div>
+                <div class="intro__text">Сочетание современного дизайна, эффективных инженерных решений, комфортной среды и профессионального сервиса</div>
+            </div>
+            <div class="intro__item">
+                <a class="intro__item-link" data-aos="zoom-in-down" data-aos-duration="1000">
+                    Географический<br> центр города
+                </a>
+                <a class="intro__item-link" data-aos="zoom-in-up" data-aos-duration="1000">
+                    Полный спектр<br> профессиональных услуг
+                </a>
+            </div>
+            
+            <div class="intro__banner" data-aos="flip-down" data-aos-duration="1200">Аренда офисов<br> от 500 руб./м2</div>
+        </div>
+    </div>
+</div>
+    
+    
+<section class="news">
+<div class="container">
+    
+    <h3 class="news__title">Новости</h3>
+
+
+    <div class="news__buttons-mixitup">
+        <button class="news__btn-mixitup" data-filter=".category-1">ВСЕ</button>
+        <button class="news__btn-mixitup" data-filter=".category-2">от РДЦ</button>
+        <button class="news__btn-mixitup" data-filter=".category-3">Новости арендаторов</button>
+        <button class="news__btn-mixitup" data-filter=".category-4">СМИ о нас</button>
+    </div>
+    
+    <div class="news__box-mixitup">
+        <div class="news__box mix category-1">
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-1.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">РДЦ выступил партнером XII Ежегодной офисной конференции
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">26 марта 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+        
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-5.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">Ваша переговорная – средоточие деловой жизни офиса. Это небольшое помещение открывает большие возможности для развития вашей фирмы. 
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">26 марта 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+            
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-4.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">Лифты Schindler обеспечивают безопасное, комфортное передвижение пассажиров с максимальной эффективностью.
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">26 марта 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>    
+        </div>   
+        
+        
+        <div class="news__box mix category-2">
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-1.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">РДЦ выступил партнером XII Ежегодной офисной конференции
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">26 марта 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-5.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">Ваша переговорная – средоточие деловой жизни офиса. Это небольшое помещение открывает большие возможности для развития вашей фирмы. 
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">26 марта 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+            
+        
+        </div>
+        
+        <div class="news__box mix category-3">
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-2.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">Арендатор РДЦ – компания «Водоходъ», открывает Центр продаж на 1 этаже
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">1 марта 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-6.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">Кафе «Своя Тарелка» приглашает на корпоративные обеды, а также предлагает доставку в ваш офис
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">29 января 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="news__box mix category-4">
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/new-4.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">Лифты Schindler обеспечивают безопасное, комфортное передвижение пассажиров с максимальной эффективностью.
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">26 марта 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+            
+            <a class="news__box-item" href="#">
+                <div class="news__box-images">
+                    <img class="news__box-img" src="images/index/news/news-3.png" alt="">
+                </div>
+                <div class="news__box-inner">
+                    <div class="news__box-title">В РДЦ прошла международная  встреча акционеров АО «САНЕКО»
+                    </div>
+                    <div class="box__info">
+                        <img class="calendar" src="images/index/news/calendar-bl.svg" alt="">
+                        <div class="news__box-date">29 января 2021 г.</div>
+                        <img class="views" src="images/index/news/views-bl.svg" alt="">
+                        <div class="news__box-views">120</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="news__batton">
+        <a class="btn" href="news.html">посмотреть все новости</a>
+    </div>
+    
+</div>
+</section>
+    
+
+<section class="benefits">
+<div class="container">
+    <div class="benefits-wrapper">
+        <div class="benefits__box">
+            <div class="benefits__box-item">
+                <h4 class="benefits__title">класс «А»<br> <span>подтвержденная категория</span></h4>
+            </div>
+            <div class="benefits__box-item">
+                <div class="benefits__title">1-8<br> <span>этажей и цокольный этаж</span></div>
+            </div>
+            
+            <div class="benefits__info">
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        Удобный доступ к главным артериям города: Московское шоссе и ул. Ново-Садовая. Меньше времени на дорогу, больше – на развитие бизнеса.
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        Панорамное остекление с видом на деловую часть Самары, реку Волга и Жигулевские горы
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        Высота потолков от 3,3 до 5,1 метров соответствует стандартам элитной коммерческой недвижимости.
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        Итальянский дизайн интерьеров, современные планировочные решения создают идеальные условия для продуктивной работы, вдохновляют и заряжают энергией.
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        Центральное кондиционирование «Daikin», приточно-вытяжная вентиляция «Vts Clima» и регулируемая система отопления создают безупречный комфорт.
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        4 пассажирских швейцарских лифта Schindler и 1 грузовой позволяют разделить потоки резидентов центра и соответствовать современным требованиям профилактики инфекционных болезней. 
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        Спринклерная водонаполненная система пожаротушения «Grundfos», интеллектуальная система управления зданием «Simens Building Technologies», видеомониторинг периметра и внутренних зон эффективно обеспечивают безопасность.
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        Оптоволоконный доступ в Интернет и неограниченное количество телефонных номеров позволяют всегда оставаться на связи.
+                    </div>
+                </div>
+                
+                <div class="benefits__info-item">
+                    <img class="benefits__info-img" src="images/arrows/benefits-right.png" alt="">
+                    <div class="benefits__info-text">
+                        У РДЦ расположена малая парковка для арендаторов на 382 машиноместа + большая парковка на 500 машиномест
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="benefits__box-bg">
+            <img class="benefits__box-images" src="images/index/benefits.svg" alt="" data-aos="zoom-in-left" data-aos-duration="1200" data-aos-offset="300">
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section class="service">
+<div class="container">
+    
+    <h3 class="service__title">Сервис</h3>   
+    
+    <div class="service__items">
+        
+        <div class="service__item" data-aos="fade-right" data-aos-offset = " 200 " data-aos-easing="linear" data-aos-duration="500">
+            <img class="service__img" src="images/index/service/1.png" alt="">
+            <div class="service__text">Рецепция и зона ожидания для гостей</div>
+        </div>
+        
+        <div class="service__item" data-aos="fade-left" data-aos-offset = " 200 " data-aos-easing="linear" data-aos-duration="500">
+            <img class="service__img" src="images/index/service/2.png" alt="">
+            <div class="service__text">Клининг, дезинфекция офисов, уход за растениями
+            </div>
+        </div>
+        
+        <div class="service__item" data-aos="fade-right" data-aos-offset = " 200 " data-aos-easing="linear" data-aos-duration="500">
+            <img class="service__img" src="images/index/service/3.png" alt="">
+            <div class="service__text">Проведение плановых и текущих ремонтных работ</div>
+        </div>
+        
+        <div class="service__item" data-aos="fade-left" data-aos-offset = " 200 " data-aos-easing="linear" data-aos-duration="500">
+            <img class="service__img" src="images/index/service/4.png" alt="">
+            <div class="service__text">Круглосуточная охрана помещений </div>
+        </div>
+        
+        <div class="service__item" data-aos="fade-right" data-aos-offset = " 200 " data-aos-easing="linear" data-aos-duration="500">
+            <img class="service__img" src="images/index/service/5.png" alt="">
+            <div class="service__text">Система автоматического распознавания гос номеров автомобилей</div>
+        </div>
+        
+        <div class="service__item" data-aos="fade-left" data-aos-offset = " 200 " data-aos-easing="linear" data-aos-duration="500">
+            <img class="service__img" src="images/index/service/6.png" alt="">
+            <div class="service__text">Выделение гостевых парковочных мест</div>
+        </div>
+        
+    </div>
+    
+    <div class="service__button">
+        <a class="btn">Подробнее о сервисе</a>
+    </div>
+    
+</div>    
+</section>
+        
+ 
+        
+<div class="map">
+    
+    <div class="map__google">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1194.3732077577563!2d50.18930865824001!3d53.22239500085588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661eb3ff9ba77b%3A0x229b3e8e69aa3a47!2z0JzQvtGB0LrQvtCy0YHQutC-0LUg0YguLCA0MS00Mywg0KHQsNC80LDRgNCwLCDQodCw0LzQsNGA0YHQutCw0Y8g0L7QsdC7LiwgNDQzMDgw!5e0!3m2!1sru!2sru!4v1633886263685!5m2!1sru!2sru" width="1580" height="661" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    
+    <div class="map__infrast">
+        <div class="map__infrast-box">
+            <h5 class="infrast__title">Инфраструктура</h5>
+            <div class="infrast-box__info">
+                <div class="infrast__text">
+                    <img class="infrast__img" src="images/index/infrast/1.svg" alt="">
+                    Прогулки и парки
+                </div>
+                <div class="infrast__number">4</div>
+            </div>
+            
+            <div class="infrast-box__info">
+                <div class="infrast__text">
+                    <img class="infrast__img" src="images/index/infrast/2.svg" alt="">
+                    Банки и обмены валют
+                </div>
+                <div class="infrast__number">9</div>
+            </div>
+            
+            <div class="infrast-box__info">
+                <div class="infrast__text">
+                    <img class="infrast__img" src="images/index/infrast/3.svg" alt="">
+                    Рестораны и кафе
+                </div>
+                <div class="infrast__number">10</div>
+            </div>
+            
+            <div class="infrast-box__info">
+                
+                <div class="infrast__text">
+                    <img class="infrast__img" src="images/index/infrast/4.svg" alt="">
+                    Спортивные центры
+                </div>
+                <div class="infrast__number">7</div>
+            </div>
+            
+            <div class="infrast-box__info">
+                <div class="infrast__text">
+                    <img class="infrast__img" src="images/index/infrast/5.svg" alt="">
+                    Продуктовые магазины
+                </div>
+                <div class="infrast__number">12</div>
+            </div>
+            
+            <div class="infrast-box__info">
+                <div class="infrast__text">
+                    <img class="infrast__img" src="images/index/infrast/6.svg" alt="">
+                    Медицинские учреждения
+                </div>
+                <div class="infrast__number">5</div>
+            </div>
+            
+            <div class="infrast-box__info">
+                <div class="infrast__text">
+                    <img class="infrast__img" src="images/index/infrast/7.svg" alt="">
+                    Платные парковки
+                </div>
+                <div class="infrast__number">2</div>
+            </div>
+        </div>
+        
+        <div class="map__infrast-items">
+            <div class="infrast-items__title">Чем заняться в обед?</div>
+            <a class="infrast-item" href="#">
+                <img class="infrast-item__img" src="images/index/infrast/park.png" alt="">
+                <div class="infrast-item__text">Покататься на велосипеде в парке</div>
+            </a>
+            
+            <a class="infrast-item" href="#">
+                <img class="infrast-item__img" src="images/index/infrast/billiards.png" alt="">
+                <div class="infrast-item__text">Поиграть в бильярд или сходить в тир</div>
+            </a>
+            
+            <a class="infrast-item" href="#">
+                <img class="infrast-item__img" src="images/index/infrast/virtual.png" alt="">
+                <div class="infrast-item__text">Окунуться в виртуальную реальность</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="map__bg">
+        <img class="map__bg-img" src="images/index/infrast/map.jpg" alt="" >
+
+        <div class="map__bg-wrapper">
+            <h2 class="map__bg-title">Транспортная доступность</h2>
+            <div class="map__bg-address">
+                Бизнес-центр «Региональный Деловой Центр» расположен в престижном Октябрьском районе г. Самары по адресу: Московское шоссе,  д. 41
+            </div>
+            <div class="map__bg-text">
+                Рядом с РДЦ пролегают основные транспортные артерии города: Московское шоссе, ул. Авроры, ул. Советской Армии, ул. Ново-Садовая, ул. Стара-Загора.
+                Удобное расположение в географическом и деловом центре города обеспечивает перспективное бизнес-окружение. Бизнес-центр также имеет прямой доступ к историческим и промышленным районам города, междугороднему автовокзалу и международному аэропорту Курумоч.    
+            </div>
+            
+            <ul class="map__bg-info">
+                <li class="bg-info__item" data-aos="flip-up">
+                    1. До Автовокзала
+                    <div class="info__item-box">
+                        <img class="info__item-img" src="images/index/infrast/line-1.png" alt="">
+                        0,7 км
+                    </div>
+                    
+                </li>
+                
+                <li class="bg-info__item" data-aos="flip-up">
+                    2. До пляжа у «Ладьи»
+                    <div class="info__item-box">
+                        <img class="info__item-img" src="images/index/infrast/line-2.png" alt="">
+                        5,7 км
+                    </div>
+                    
+                </li>
+                
+                <li class="bg-info__item" data-aos="flip-up">
+                    3. До ЖД вокзала
+                    <div class="info__item-box">
+                        <img class="info__item-img" src="images/index/infrast/line-3.png" alt="">
+                        7,6 км
+                    </div>
+                    
+                </li>
+                
+                <li class="bg-info__item" data-aos="flip-up">
+                    4. До Аэропорта «Курумоч»
+                    <div class="info__item-box">
+                        <img class="info__item-img" src="images/index/infrast/line-4.png" alt="">
+                        46 км
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>        
+        
+    </div>
+</div>
+
+
+
+
+<section class="tenant">
+<div class="container">
+    
+    <h3 class="tenant__title">Наши арендаторы</h3>
+    
+    
+    <div class="tenant__buttons-mixitup">
+        <button class="tenant__btn-mixitup" data-filter=".category-5">ВСЕ</button>
+        <button class="news__btn-mixitup" data-filter=".category-6">Финансы</button>
+        <button class="news__btn-mixitup" data-filter=".category-7">Энергетика</button>
+        <button class="news__btn-mixitup" data-filter=".category-8">Технологии</button>
+        <button class="news__btn-mixitup" data-filter=".category-9">Здравоохранение</button>
+    </div>
+
+    <div class="tenant__box">
+        
+        <div class="tenant__items mix category-5">
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/1.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/2.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/3.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/5.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/6.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/7.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/8.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/9.png" alt="">
+            </div>
+        </div>
+        
+        
+        <div class="tenant__items mix category-6">
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/5.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/12.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/13.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/15.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/16.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/17.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/18.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/19.png" alt="">
+            </div>
+        </div>
+        
+        <div class="tenant__items mix category-7">
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/15.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/14.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/11.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/13.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/2.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/1.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/9.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/7.png" alt="">
+            </div>
+        </div>
+        
+        <div class="tenant__items mix category-8">
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/5.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/2.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/14.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/16.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/15.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/12.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/11.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/17.png" alt="">
+            </div>
+        </div>
+        
+        <div class="tenant__items mix category-9">
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/13.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/14.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/16.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/7.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/3.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/4.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/2.png" alt="">
+            </div>
+            <div class="tenant__item">
+                <img class="tenant__logotype" src="images/index/logotype/1.png" alt="">
+            </div>
+        </div>    
+    </div>
+    
+    <div class="tenant__button">
+        <a class="btn">Показать всех арендаторов</a>
+    </div>
+
+    
+</div>
+</section>
+
+
+<div class="reviews" style="background-image: url(images/index/reviews/reviews-bg.png);" >
+<div class="container">
+    
+    <div class="reviews__title">Отзывы клиентов</div>
+    
+    <div class="reviews__slider">
+    
+        <div class="reviews__slider-item">
+            <div class="reviews__slider-logo">
+                <img class="reviews__logo" src="images/index/reviews/asset.svg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+                «Офис компании Asset располагается в офисном центре «РДЦ» более восьми лет. За это время мы имели возможность оценить не только качество помещений и инженерных решений, удобное расположение и транспортную доступность, но и высокий профессиональный уровень сотрудников арендодателя, позволяющий оперативно решать любые вопросы»
+            </div>
+            <div class="reviews__slider-name">
+                Александр Вейлер<br>
+            </div>
+            <div class="reviews__slider-post">
+                Генеральный директор
+            </div>
+            <div class="reviews__slider-company">ООО «Asset»</div>
+            
+        </div>
+        
+        <div class="reviews__slider-item">
+            <div class="reviews__slider-logo">
+                <img class="reviews__logo" src="images/index/reviews/2.svg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+                «Офис компании Asset располагается в офисном центре «РДЦ» более восьми лет. За это время мы имели возможность оценить не только качество помещений и инженерных решений, удобное расположение и транспортную доступность, но и высокий профессиональный уровень сотрудников арендодателя, позволяющий оперативно решать любые вопросы»
+            </div>
+            <div class="reviews__slider-name">
+                Александр Вейлер<br>
+            </div>
+            <div class="reviews__slider-post">
+                Генеральный директор
+            </div>
+            <div class="reviews__slider-company">ООО «Asset»</div>
+            
+        </div>
+        
+        <div class="reviews__slider-item">
+            <div class="reviews__slider-logo">
+                <img class="reviews__logo" src="images/index/reviews/3.svg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+                «Офис компании Asset располагается в офисном центре «РДЦ» более восьми лет. За это время мы имели возможность оценить не только качество помещений и инженерных решений, удобное расположение и транспортную доступность, но и высокий профессиональный уровень сотрудников арендодателя, позволяющий оперативно решать любые вопросы»
+            </div>
+            <div class="reviews__slider-name">
+                Дмитрий Тарелкин<br>
+            </div>
+            <div class="reviews__slider-post">
+                Генеральный директор
+            </div>
+            <div class="reviews__slider-company">ООО «Своя Тарелка»</div>
+            
+        </div>
+        
+        <div class="reviews__slider-item">
+            <div class="reviews__slider-logo">
+                <img class="reviews__logo" src="images/index/reviews/4.svg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+                «Офис компании Asset располагается в офисном центре «РДЦ» более десяти лет. За это время мы имели возможность оценить не только качество помещений и инженерных решений, удобное расположение и транспортную доступность, но и высокий профессиональный уровень сотрудников арендодателя, позволяющий оперативно решать любые вопросы»
+            </div>
+            <div class="reviews__slider-name">
+                Александр Гречка<br>
+            </div>
+            <div class="reviews__slider-post">
+                Генеральный директор
+            </div>
+            <div class="reviews__slider-company">ООО «Русский Стандарт»</div>
+            
+        </div>
+        
+        <div class="reviews__slider-item">
+            <div class="reviews__slider-logo">
+                <img class="reviews__logo" src="images/index/reviews/5.svg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+                «Офис компании Asset располагается в офисном центре «РДЦ» более четерех лет. За это время мы имели возможность оценить не только качество помещений и инженерных решений, удобное расположение и транспортную доступность, но и высокий профессиональный уровень сотрудников арендодателя, позволяющий оперативно решать любые вопросы»
+            </div>
+            <div class="reviews__slider-name">
+                Никита Перфораторов<br>
+            </div>
+            <div class="reviews__slider-post">
+                Генеральный директор
+            </div>
+            <div class="reviews__slider-company">ООО «Промперфоратор»</div>
+            
+        </div>
+        
+        <div class="reviews__slider-item">
+            <div class="reviews__slider-logo">
+                <img class="reviews__logo" src="images/index/reviews/6.svg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+                «Офис компанииЛоко Банк располагается в офисном центре «РДЦ» более трех лет. За это время мы имели возможность оценить не только качество помещений и инженерных решений, удобное расположение и транспортную доступность, но и высокий профессиональный уровень сотрудников арендодателя, позволяющий оперативно решать любые вопросы»
+            </div>
+            <div class="reviews__slider-name">
+                Семен Кнопкин<br>
+            </div>
+            <div class="reviews__slider-post">
+                Генеральный директор
+            </div>
+            <div class="reviews__slider-company">ООО «Локо Банк»</div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="reviews__button">
+        <a class="btn btn--white" href="#">Показать все отзывы</a>
+    </div>
+    
+</div>
+</div>
+
+
+
+<div class="rent__banner" style="background-image: url(images/index/rent/rent-bg.png);">
+    <div class="container">
+        
+        <div class="rent__banner-item">
+            <div class="banner-item__info">Аренда офисов<br>
+                от 10 м2 до 1350 м2</div>
+            <div class="rent__banner-button">
+                <a class="btn btn--white" href="rent.html">Выбрать офис</a>
+            </div>
+        </div>
+        
+    </div>
+</div>        
+</main>
+      
+      
+      
+<footer class="footer">
+<div class="container">
+            
+    <div class="footer__interested">
+    <div class="footer__interested-text">Заинтересованы?</div>
+    <a class="footer__interested-phone" href="71234567891">+7(123)456-78-91</a>
+        
+        <form class="form" method="post">
+            <div class="form__group">
+                <input class="input" type="text" name="name" placeholder="Ваше имя">  
+            </div>
+            <div class="form__group">
+                <input class="input" type="tel" name="tel" placeholder="Ваш телефон">  
+            </div>
+            <div class="form__group">
+                <button class="btn" type="submit">Позвонить мне</button>
+            </div>
+            <div class="form__label">
+                <input class="form__checkbox" type="checkbox" id="checkbox">
+                <label class="checkbox__label" for="checkbox">Я согласен на обработку моих персональных данных</label>
+            </div>
+        </form>
+        
+    </div>
+    
+</div>
+
+<div class="footer--background">
+<div class="container">
+    <div class="footer__menu">
+        <a class="footer__menu-link" href="about.html">О центре</a>
+        <a class="footer__menu-link" href="news.html">Новости </a>
+        <a class="footer__menu-link" href="tenants.html">Наши арендаторы</a>
+        <a class="footer__menu-link" href="rent.html">Аренда офисов</a>
+        <a class="footer__menu-link" href="service.html">Сервис</a>
+        <a class="footer__menu-link" href="parking.html">Паркинг</a>
+        <a class="footer__menu-link" href="contacts.html">Контакты</a>    
+    </div>
+    
+    <div class="footer__box">
+        <div class="footer__box-item">
+            <div class="footer__logo">
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
+            <a class="footer__address" href="#">
+                <img class="map__marker" src="images/marker.png" alt="">
+                Московское шоссе, 41
+            </a>
+            <div class="footer__phone">
+                <a class="phone"  href="tel:+78005553535">
+                    <img class="phone-img" src="images/phone.png" alt="">
+                    +7(123)456-78-91
+                </a>
+            </div>    
+        </div>
+        <div class="footer__box-text">
+            Офисный центр премиум-класса для крупныхрегиональных, федеральных и иностранных компаний.Один из немногих центров деловой недвижимости в Самаре, где сочетается высокий уровень объекта,престижность, выгодность его расположения идоступность транспортных магистралей. Общаяплощадь РДЦ- 13500 кв.м. Высокая транспортнаядоступность, современное оснащение здания,комплекс услуг управляющей компании, услуги нашихарендаторов, внутренняя система коммуникацийпризваны экономить ваше время секунду засекундой. А чем быстрее вы закрываете рабочиезадачи, тем больше зарабатывает ваша компания.
+        </div>
+    </div>
+    
+</div>
+
+        
+
+
+<div class="copyright">
+    <div class="container">
+        <div class="copyright__box">
+            <div class="copyright__item">© 2021 «Региональный Деловой Центр»</div>
+            <a class="copyright__item-link">Политика конфиденциальности</a>
+            <a class="copyright__item-link">Разработка и сопровождение
+                <img class="copyright__img" src="images/copyright.png" alt="">
+            </a>    
+        </div>
+    </div>  
+</div>
+
+    
+</div>
+</footer>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    <script src="js/main.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

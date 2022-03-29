@@ -1,0 +1,1771 @@
+
+@media (max-width: 1430px) {
+    .map__bg-wrapper {
+        top: 80px;
+    }
+    .parking__text {
+        margin-bottom: 5px;
+        line-height: 2;
+    }    
+}
+
+
+
+
+
+@media (max-width: 1300px){
+    // ========Benefits======= //
+    .benefits__box-bg {
+        right: 30px;
+    }
+    
+    .map__bg-wrapper {
+        top: 15px;
+        left: 25px;
+    }  
+    .presentation__title {
+        font-size: 32px;
+        padding-bottom: 10px;
+        line-height: 1.1;
+    }  
+    
+    .dignity__item-text {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 1140px) {
+    
+    // ======== Header ======= //
+    .header {
+        padding: 5px 20px 0 20px;
+    }
+    .header__inner {
+        justify-content: space-between;
+    }
+    
+    .header--page {
+        .logo {
+            width: 140px;
+            padding-left: 0;
+        }
+    }
+    .logo {
+        width: 150px;
+    }
+    .header-logo {
+        margin-left: 0px;
+    }
+    .nav {
+        flex-direction: column;
+        display: flex;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: rgba(46, 46, 46, 0.52);
+        z-index: 49;
+        transform: translateY(-300%);
+        transition: transform .5s linear;
+        padding: 0px 0px;
+        margin-left: 0;
+    }
+    .nav__link {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .header__box {
+        padding-right: 70px;
+        margin-right: 20px;
+    }
+    .burger {
+        display: block;
+    }
+    .nav.show {
+        transform: translateY(0);
+    }
+    
+    
+    // ========Intro======= //
+    .intro {
+        min-height: 630px;   
+        padding: 0 20px; 
+    }
+    .intro__title {
+        font-size: 15px;
+        span{
+            font-size: 37px;
+            width: 303px;
+            display: block;
+        }
+    }
+    .intro__text {
+        font-size: 16px;
+        line-height: 1.4;
+        width: 350px;
+    }
+    .intro__item-link {
+        font-size: 15px;
+    }
+    .intro__banner {
+        padding: 16px 36px;
+        line-height: 1.4;
+    }
+    
+    
+    
+    // ========Benefits======= //
+    .benefits__box-bg {
+        top: 215px;
+    }
+    .benefits__box-images {
+        width: 423px;
+    }
+    
+    
+    .map__bg-title {
+        font-size: 35px;
+    }
+    .map__bg-text {
+        font-size: 13px;
+    }
+    
+    
+    .parking__box {
+        height: 500px;
+    }
+    .parking__slider .slick-dots {
+        bottom: 71px;
+        left: 70px;
+    }
+    .parking__slider-img {
+        height: 81%;
+    }
+    .parking__info {
+        padding: 20px 10px 0 20px;
+    }
+    .parking__title {
+        font-size: 23px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .parking__text {
+        line-height: 1.6;
+    }
+    
+    .presentation__title {
+        font-size: 25px;
+    }
+    .presentation__text {
+        padding-right: 15px;
+        width: 480px;    
+    }
+}
+
+
+@media (max-width: 1111px) {
+    .prev, .next {
+        top: 113%;
+    }
+    .next {
+        right: 170px;
+    }
+    .prev {
+        left: 170px;
+    }
+    
+    
+    .tenants__box {
+        justify-content: center;
+    }
+    .tenants__item {
+        width: 300px;
+    }
+    
+    
+    .form {
+        display: block;
+    }
+    .form__group {
+        margin-bottom: 20px;
+    }
+    
+    .form__group {
+        .btn {
+            padding: 13px 27px;
+        }    
+    }
+}
+
+
+@media (max-width: 1070px) {
+    
+    .table__item {
+        width: 20%;
+    }
+    
+    .footer__box-text {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    .copyright__box {
+        font-size: 13px;
+    }
+    .copyright__img {
+        right: 225px;
+        top: -10px;
+    }
+    
+    .rent__slider .slick-dots {
+        right: 12%;
+    }
+    
+    .modal__inner {
+        flex-wrap: wrap;
+        width: 930px;
+    }
+}
+
+
+
+@media (max-width: 1060px) {
+    .info__item-img {
+        display: none;
+    }
+    .map__bg-img {
+        min-height: 600px;
+    }
+    .bg-info__item {
+        margin-bottom: 13px;
+        margin-right: 10px;
+        width: 199px;
+    }
+    .map__bg-info {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -299px;
+        left: 0;
+    }
+    .map__bg-text {
+        max-width: 369px;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    
+    .bank__item {
+        width: 70%;
+    }
+    
+    .contacts__item {
+        margin-right: 50px;
+    }
+    .contacts__item-info {
+        width: 208px;
+        margin-right: 100px;
+    }
+    
+    .service__info-box {
+        justify-content: center;
+    }
+    
+    .service__info-item {
+        width: 34%;
+        margin-right: 20px;
+    }
+    .service__info-images {
+        padding-top: 10px;
+    }
+    
+    
+    .footer__menu {
+        padding-top: 8px;
+        justify-content: space-between;
+    }
+    
+    .footer__menu-link {
+        padding: 10px 0px;
+        margin-right: 0;
+    }
+    
+    .presentation__info {
+        padding-top: 5px;
+        width: 477px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .about__intro__box {
+        width: 50%;
+    }     
+    .about__intro-item {
+        font-size: 22px;
+    } 
+    .about__intro-item span {
+        font-size: 16px;
+    }  
+    
+    .dignity__item-text {
+        padding: 0px 10px;
+    }   
+}
+
+
+@media (max-width: 960px) {
+    
+    .page__bg {
+        height: 160px;
+    }
+    
+    .page__bg-title {
+        font-size: 45px;
+        padding-top: 90px;
+    }
+    .page__bg-info {
+        padding-top: 90px;
+    }
+    
+    // ========Benefits======= //
+    .benefits__info-text {
+        font-size: 13px;
+    }
+    .benefits__box-images {
+        width: 380px;
+    }
+    
+    .news__uncover-title {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .news__uncover-text {
+        padding-top: 0;
+    }
+    .rent__square-item {
+        justify-content: center;
+    }
+    .rent__slider .slick-dots {
+        top: 20px;
+        right: 0;
+        left: -8px;
+    }
+    .rent__slider-box {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .rent__slider-item {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .title--drawing {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    .rent__slider-title {
+        font-size: 28px;
+    }
+    .rent__square--title {
+        text-align: center;
+    }
+    .rent__banner {
+        min-height: 440px;
+    }
+    
+    .tenants__item {
+        width: 260px;
+    }
+    
+    .footer__interested-text {
+        font-size: 53px;
+    }
+    .footer__interested-phone {
+        font-size: 85px;
+    }
+    
+    .footer__menu {
+        font-size: 13px;
+    }
+    .copyright__img {
+        display: none;
+    }
+    
+    .presentation__text {
+        line-height: 1.5;
+    }
+    
+    .dignity__item {
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .modal__inner {
+        width: 565px;
+        height: 975px;
+        margin-top: 500px;
+        margin-bottom: 50px;
+        padding: 5px 20px;
+    }
+    .modal__plan {
+        width: 100%;
+    }
+    .modal__plan-text {
+        margin-top: -50px;
+    }
+    .modal__info {
+        width: 100%;
+        padding-left: 0;
+    }
+    .modal__info-box {
+        justify-content: space-around;
+    }
+    .modal__close {
+        top: 484px;
+        right: -20px;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .news__uncover-box {
+        display: block;
+    }
+    .news__uncover-item {
+        width: 70%;
+    }
+    .news__uncover-text {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .uncover__info {
+        padding-top: 20px;
+    }
+    
+    .contacts__phone {
+        padding: 7px 0;
+    }
+    
+    .parking__box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .parking__item {
+        width: 80%;
+        height: 500px;
+    }
+    .parking__info {
+        padding: 0;
+    }
+    .parking__background {
+        margin-top: 375px;
+    }
+    
+    .about__intro-text {
+        width: 440px;
+    }
+    
+    .presentation__items {
+        flex-wrap: wrap;
+    }
+    .presentation__item {
+        width: 100%;
+    }
+    .presentation__info {
+        padding-top: 15px;
+        width: auto;
+    }
+    .presentation__text {
+        padding-right: 15px;
+        width: auto;
+        line-height: 1.7;
+    }
+    .presentation__button {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media (max-width: 860px) {
+    
+    .bank__item {
+        &:last-child {
+            width: 100%;
+        }
+    }
+    
+    // ========Intro======= //
+    .intro {
+        min-height: 575px;
+        
+    }
+    .intro__inner {
+        padding-top: 100px;
+        justify-content: space-between;
+    }
+    .intro__item {
+        flex-direction: column;
+    }
+    .intro__item-link {
+        margin-bottom: 15px;
+    }
+    
+    .tenants__item {
+        width: 300px;
+    }
+    
+    // ======== News ======= //
+    .news__box {
+        justify-content: center;
+    }
+    
+
+    
+    .benefits__box {
+        width: 100%;
+        padding-top: 367px;
+        padding-right: 15px;
+    }
+    .benefits__info-text {
+        font-size: 14px;
+    }
+    .benefits__box-bg {
+        top: 10px;
+        right: 0;
+        left: 30px;
+    }
+    
+    
+    .map__infrast {
+        top: 160px;
+        left: 30px;
+    }
+    
+    .map__bg-info {
+        display: block;
+        bottom: -290px;
+        left: 0;
+    }
+    
+    .service__info-item {
+        width: 100%;
+        text-align: center;
+    }
+    .service__info-images {
+        max-width: 450px;
+    }
+    .service__info-images {
+        margin: 0 auto;
+    }
+    .service__info-text {
+        padding: 0 20px;
+    }
+    
+    .form {
+        margin-top: 28px;
+        margin-bottom: 27px;
+    }
+    
+    
+    
+    
+    .table__name {
+        text-align: left;
+    }
+    .table__info {
+        width: auto;
+    }
+    
+    .table__items {
+        text-align: left;
+    }
+    
+    .table__item {
+        width: auto;
+        padding: 0 35px 0 15px;
+    }
+    
+    .table__info-none {
+        display: none;
+    }
+    
+    .table__item-none {
+        display: none;
+    }
+    
+    .footer__box-item {
+        max-width: 255px;
+    }
+    
+    .contacts__intro {
+        flex-wrap: wrap;
+    }
+    .contacts__item {
+        margin-right: 130px;
+        margin-bottom: 20px;
+    }
+    .contacts__address {
+        margin-bottom: 40px;
+    }
+    .form__checkbox {
+        width: 200px;
+    }
+    
+    
+    .about {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 540px;
+        color: #fff;
+        position: relative;
+    }
+    
+    .about__intro__box {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .about::before {
+        width: 100%;
+        height: 327px;
+    }
+    .about__intro-text {
+        width: 100%;
+        padding-right: 20px;
+    }
+    .about__intro-banner {
+        height: 118px;
+    }
+    .about__intro-item span {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media (max-width: 777px) {
+    // ======== Header ======= //
+    .header__box {
+        display: block;
+    }
+    .header__map {
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+    .header--page {
+        .logo {
+            padding-bottom: 10px;
+        }
+    }
+    
+    
+    // ========Intro======= //
+    .intro {
+        min-height: 500px;
+    }
+    .intro__title {
+        span{
+            font-size: 31px;
+            width: 249px;
+        }
+    }
+    .intro__text {
+        padding-top: 35px;
+        font-size: 15px;
+        width: 275px;
+    }
+    .intro__banner {
+        right: 40px;
+    }
+    
+    
+    
+    
+    
+    .map__bg-img {
+        min-height: 524px;
+    }
+    .map__bg-title {
+        font-size: 29px;
+    }
+    .map__bg-address {
+        margin-bottom: 5px;
+        max-width: 473px;
+    }
+    .map__bg-text {
+        font-size: 13px;
+    }
+    .map__bg-info {
+        display: block;
+        bottom: -254px;
+        left: 0;
+    }
+    
+    .tenant__items {
+        justify-content: center;
+    }
+    .tenant__item {
+        width: 187px;
+        height: 120px;
+    }
+    
+    .tenant {
+        padding: 25px 0 45px 0;
+    }
+    .reviews {
+        padding: 10px 0 28px 0;
+    }
+    
+    .bank__item {
+        width: 80%;
+    }
+    
+    .footer__menu {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    .footer__menu-link {
+        padding: 8px 0px;
+        margin-right: 0;
+        width: 155px;
+        text-align: center;
+        margin: 0 3px;
+    }
+    .footer--background {
+        &::before {
+            top: 80px;
+        }
+    }
+    
+    
+    .footer__box {
+        padding: 29px 0 25px 0;
+    }
+    
+    .copyright__box {    
+        justify-content: space-between;
+    }
+    .copyright__item {
+        width: 152px;
+    }
+    .copyright__item-link {
+        padding: 0 10px;
+        width: 152px;
+    }
+    
+    .about__intro-item {
+        font-size: 16px;
+    }
+    .about__intro-item span {
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media (max-width: 721px) {
+    .reviews__title {
+        font-size: 43px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .reviews__slider-info {
+        padding-top: 20px;
+        line-height: 1.3;
+    }
+    .next {
+        right: 80px;
+    }
+    .prev {
+        left:80px;
+    }
+    
+    .bank__item {
+        width: 90%;
+    }
+    
+    .page__bg-title {
+        font-size: 40px;
+    }
+    .page__bg-info {
+        font-size: 26px;
+    }
+    
+    .parking__bg {
+        display: none;
+    }
+    .parking__mini {
+        display: block;
+    }
+    
+    .footer__interested-text {
+        font-size: 45px;
+    }
+    .footer__interested-phone {
+        font-size: 68px;
+    }
+    
+    .footer__menu {
+        padding-left: 0;
+    }
+    
+    
+    .footer__box {
+        display: block;
+    }
+    .footer__box-item {
+        max-width: 582px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+@media (max-width: 680px) {
+    
+    // ========Intro======= //
+    .intro__inner {
+        padding-top: 65px;
+    }
+    .intro__title {
+        span{
+            line-height: 1.1;
+        }
+    }
+    .intro__text {
+        padding-top: 20px;
+    }
+    .intro__banner {
+        right: 0;
+    }
+    
+    .news__uncover-item {
+        width: 80%;
+    }
+    
+    .tenants__item {
+        width: 260px;
+    }
+    
+    .page__bg-title {
+        font-size: 37px;
+    }
+    
+    
+    
+    .map__bg-img {
+        display: none;
+    }
+    .map__bg {
+        height: 526px;
+        background-color: #191D24;
+    }
+    .map__bg-address {
+        margin-bottom: 10px;
+        max-width: 514px;
+        padding: 0 5px 0 0;
+    }
+    .map__bg-text {
+        max-width: 625px;
+        padding: 0 5px 0 0;
+    }
+    
+    .parking__item {
+        width: 100%;
+    }
+    
+    .parking__info {
+        padding: 0 15px;
+    }
+    .parking__title {
+        font-size: 19px;
+    }
+    
+    .footer__menu-link {
+        width: 141px;
+    }
+    
+    .about {
+        min-height: 471px;
+    }
+    .about__intro-title {
+        font-size: 20px;
+    }
+    .about__intro-text {
+        line-height: 1.3;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 145px;
+    }
+    
+    .about__intro-banner {
+        display: block;
+    }
+    .about::before {
+        height: 376px;
+    }
+    .about__intro-banner {
+        height: 240px;
+        width: 23%;
+    }
+    .about__intro-item {
+        padding-top: 10px;
+        font-size: 16px;
+        width: 134px;
+        padding-left: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 620px) {
+    .page__bg {
+        height: 140px;
+    }
+    .page__bg-box {
+        align-items: baseline;
+    }
+    .page__bg-title {
+        font-size: 40px;
+        padding-right: 20px;
+    }
+    .page__bg-info {
+        font-size: 20px;
+    }
+    
+    
+    .map__google {
+        display: none;
+    }
+    .map__infrast {
+        position: static;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .bank {
+        margin-bottom: 20px;
+    }
+    .bank__slider .slick-dots {
+        margin-top: -40px;
+    }
+    .bank__item {
+        width: 100%;
+        margin-bottom: 40px;
+        &:last-child {
+            width: 100%;
+            margin-bottom: 0;
+        }
+    }
+    .bank__gallery-img {
+        height: 85%;
+    }
+    
+    .parking__slider-img {
+        height: 66%;
+    }
+    .parking__item {
+        height: 414px;
+    }
+    .parking__slider .slick-dots {
+        bottom: 160px;
+        left: 25px;
+    }
+    .parking__background {
+        margin-top: 300px;
+    }
+    
+    .footer__menu-link {
+        width: 126px;
+    }
+    
+    .about__intro-title {
+        font-size: 17px;
+    }
+    .about__intro-banner {
+        width: 25%;
+    }
+    
+    
+    .modal__inner {
+        margin-top: 310px;
+        width: 410px;
+        height: 940px;
+    }
+    
+    .modal__plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .modal__plan-num {
+        font-size: 20px;
+        top: 47%;
+    }
+    .modal__plan-text {
+        margin-top: -20px;
+    }
+    .modal__info {
+        width: 100%;
+    }
+    .modal__info-num {
+        font-size: 25px;
+    }
+    .modal__info-text {
+        line-height: 1.3;
+    }
+    .modal__info-box {
+        flex-direction: column;
+        justify-content: center;
+        width: 269px;
+    }
+    .modal__close {
+        top: 290px;
+        right: -18px;
+        width: 25px;
+        height: 25px;
+    }
+    .modal__info-images {
+        width: 170px;
+    }
+    .modal__info-btn {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 590px) {
+    
+    .footer__menu-link {
+        text-align: left;
+    }
+    .contacts__title {
+        padding-top: 121px;
+    }
+    .contacts__item {
+        margin-right: 0px;
+    }
+    .about__intro__box {
+        top: 139px;
+    }
+    
+    .about__intro__box {
+        top: 100px;
+    }
+}
+
+
+
+
+
+@media (max-width: 580px) {
+    // ======== Header ======= //
+    .header {
+        padding: 0;
+        padding: 10px 0;
+        height: 90px;
+    }
+    .header__inner {
+        display: block;
+    }
+    .header__box {
+        display: flex;
+        padding-top: 5px;
+        justify-content: space-between;
+    }
+    .burger {
+        top: 22px;
+    }
+    
+    .page__bg {
+        height: 170px;
+    }
+    .page__bg-title {
+        padding-top: 123px;
+        font-size: 33px;
+    }
+    .page__bg-info {
+        font-size: 17px;
+    }
+    
+    // ========Intro======= //
+    .intro {
+        padding: 0;
+    }
+    .intro__inner {
+        padding-top: 100px;
+    }
+    .intro__item-link {
+        padding-left: 0;
+    }
+    .intro__banner {
+        padding: 10px 36px;
+        line-height: 1.3;
+    }
+    
+    
+    .rent__banner {
+        min-height: 370px;
+        align-items: end;
+    }
+    .tenant__title {
+        font-size: 42px;
+    }
+    
+    
+    .breadcrumbs {
+        top: 90px;
+    }
+
+    .news__uncover-item {
+        width: 100%;
+    }
+    
+    .tenants__item {
+        width: 300px;
+    }
+    
+    
+    .footer__interested-text {
+        font-size: 34px;
+    }
+    .footer__interested-phone {
+        font-size: 62px;
+    }
+    
+    
+    .footer__logo {
+        .logo {
+            width: 135px;
+        }    
+    }
+    
+    .about__intro__box {
+        top: 137px;
+    }
+    .about__intro-text {
+        line-height: 1.2;
+        font-size: 13px;
+    }
+    .about__intro-title {
+        padding-bottom: 7px;
+    }
+    
+    .about__intro__box {
+        top: 152px;
+    }
+    
+    .about::before {
+        top: 135px;
+        height: 335px;
+    }
+    .about__intro-banner {
+        width: 29%;
+    }
+}
+
+
+@media (max-width: 557px) {
+    
+    .rent__link {
+        padding: 10px 15px;
+    }
+    
+    .breadcrumbs__list {
+        flex-wrap: wrap;
+    }
+    
+    .footer__menu-link {
+        width: 150px;
+    }
+    .footer--background {
+        &::before {
+            top: 115px;
+        }
+    }
+    
+    .footer__phone {
+        font-size: 14px;
+    }
+    
+    .about {
+        min-height: 510px;
+    }
+    .about::before {
+        height: 374px;
+    }
+}
+
+
+
+
+
+@media (max-width: 530px) {
+    
+    // ======== News ======= //
+    .news {
+        padding: 15px 0 20px 0;
+        min-height: 750px;
+    }
+    .news__btn-mixitup {
+        margin-right: 14px;
+        font-size: 13px;
+        line-height: 2;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    
+    .benefits__title {
+        font-size: 40px;
+        span{
+            font-size: 14px;
+        }
+    }
+    .benefits__info-text {
+        position: relative;
+        padding-bottom: 15px;
+        border-bottom: 1px solid $yellow;
+    }
+    .benefits__info-img {
+        padding-bottom: 15px;
+    }
+    .benefits__box-bg {
+        top: 10px;
+        right: 0;
+        left: 30px;
+        padding-right: 20px;
+    }
+    
+    
+    .map__infrast {
+        flex-wrap: wrap;
+    }
+    .map__infrast-items {
+        width: 296px;
+    }
+    .infrast-item__img {
+        width: 300px;
+    }
+    .infrast-item__text {
+        font-size: 13px;
+    }
+    
+    
+    .tenant {
+        padding: 0px 0 45px 0;
+    }
+    .tenant__title {
+        font-size: 35px;
+    }
+    .prev, .next {
+        top: 100%;
+    }
+    .reviews__button {
+        margin-top: 25px;
+    }
+    .next {
+        right: 20px;
+    }
+    .prev {
+        left: 20px;
+    }
+    
+    .bank__name {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+    .bank__information-services {
+        width: 100%;
+    }
+    
+    .service__info-item {   
+        margin-right: 0;
+    }
+    .service__info-text {
+        padding: 0 5px;
+    }
+    
+    .footer__interested-phone {
+        font-size: 53px;
+    }
+    .footer__interested-text {
+        font-size: 31px;
+    }
+    
+    .footer__menu-link {
+        width: 135px;
+    }
+    .footer__address {
+        font-size: 13px;
+    }
+    .footer__phone {
+        font-size: 13px;
+    }
+    
+    .rent__slider-drawing {
+        padding-left: 0px;
+    }
+    
+    .copyright__box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright__item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .copyright__item-link {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    
+    .about {
+        min-height: 591px;
+    }
+    .about::before {
+        height: 455px;
+    }
+    .about__intro-banner {
+        width: 31%;
+    }
+    
+    
+    .presentation__title {
+        font-size: 20px;
+    }
+    .presentation__text {
+        padding-right: 14px;
+        line-height: 1.5;
+    }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    // ======== Header ======= //
+    .header {
+        padding: 3px 0;
+        height: 100px;
+    }
+    .logo {
+        width: 140px;
+    }
+    .nav__link {
+        padding: 12px 10px;
+    }
+    .header__box {
+        display: block;
+    }
+    
+    .breadcrumbs {
+        top: 99px;
+    }
+    
+    .page__bg {
+        height: 216px;
+    }
+    .page__bg-box {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .page__bg-title {
+        padding-right: 0;
+        font-size: 33px;
+        padding-top: 155px;
+    }
+    .page__bg-info {
+        font-size: 17px;
+        padding-top: 0;
+    }
+    
+    // ========Intro======= //
+    .intro__inner {
+        padding-top: 150px;
+    }
+    .intro__text {
+        display: none;
+    }
+    .intro__item {
+        display: none;
+    }
+    .intro__banner {
+        font-size: 23px;
+        padding: 40px 0;
+        font-size: 19px;  
+        line-height: 1.3;
+        width: 100%;
+        text-align: center;
+        br{
+            display: none;
+        }
+    }
+    
+    .parking__slider-img {
+        height: 56%;
+    }
+    .parking__slider .slick-dots {
+        bottom: 216px;
+    }
+    .parking__item {
+        height: 364px;
+    }
+    
+    .reviews__title {
+        font-size: 40px;
+    }
+    .reviews__slider-info {
+        line-height: 1.2;
+        font-size: 14px;
+    }
+    
+    .rent__slider-title {
+        font-size: 25px;
+    }
+    .rent__square--title {
+        font-size: 25px;
+    }
+    
+    .footer__interested-text {
+        font-size: 28px;
+    }
+    .footer__interested-phone {
+        font-size: 44px;
+    }
+    .footer__box-item {
+        justify-content: space-around;
+    }
+    .footer__logo {
+        display: none;
+    }
+    
+    .header--about {
+        background-color: transparent;
+    }
+    .header--dark {
+        background-color: rgba(46, 46, 46, 0.925);
+        border-bottom: 3px solid red;
+    }
+    .breadcrumbs--about {
+        background-color: transparent;
+    }
+    .about {
+        min-height: 680px;
+    }
+    .about::before {
+        top: 0px;   
+    }
+    .about__intro-banner {
+        width: 100%;
+    }
+    .about__intro-text {
+        padding-left: 0;
+    }
+    .about__intro-item {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .about__intro__box {
+        padding: 0;
+    }
+    
+    .dignity__item-text {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (max-width: 455px) {
+    .map__bg {
+        height: 492px;
+    }
+    .map__bg-title {
+        font-size: 24px;
+    }
+    .map__bg-title {
+        margin-bottom: 8px;
+    }
+    .info__item-box {
+        font-size: 18px;
+    }
+    .map__bg-info {
+        margin-top: 10px;
+        position: static;
+    }
+    
+    
+    .rent__banner-item {
+        padding: 10px;
+    }
+    
+    .bank__name {
+        font-size: 23px;
+    }
+    .bank__information {
+        font-size: 22px;
+    }
+    
+    .bank__gallery-img {
+        height: 75%;
+    }
+    
+    .bank__slider .slick-dots {
+        margin-top: -75px;
+    }
+    .bank__item {
+        padding-right: 0px;
+    }
+    
+    .bank__information-info {
+        span{
+            display: block;
+        }
+    }
+    .bank__description-title {
+        margin-bottom: 15px;
+    }
+    .bank__description-text {
+        margin-bottom: 15px;
+    }
+    .bank__site-link {
+        display: block;
+    }
+    
+    .footer__menu-link {
+        width: 126px;
+    }
+    
+    
+    .about {
+        min-height: 720px;
+    }
+    .about::before {
+        height: 480px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .intro__title {
+        margin-bottom: 60px;
+    }
+    .intro__title span {
+        width: 314px;
+    }
+    .parking__title {
+        font-size: 16px;
+    }
+    .parking__text {
+        line-height: 1.4;
+        font-size: 13px;
+    }
+    
+    .footer__menu-link {
+        width: 165px;
+    }
+    .footer--background {
+        &::before {
+            top: 140px;
+        }
+    }
+    
+    .modal__inner {
+        margin-top: 185px;
+        margin-bottom: 15px;
+        width: 335px;
+        height: 855px;
+    }
+    .modal__plan {
+        margin-bottom: 10px;
+    }
+    .modal__plan-num {
+        top: 46%;
+    }
+    .modal__info-box {
+        width: 235px;
+    }
+    .modal__close {
+        top: 165px;
+    }
+}
+
+
+
+
+@media (max-width: 403px) {
+    .tenant__item {
+        width: 270px;
+        height: 100px;
+    }
+    .tenant__button {
+        .btn {
+            font-size: 13px;    
+        }
+    }
+    .contacts__phone {
+        padding: 5px 0;
+        line-height: 1.2;
+    }
+    .contacts__address {
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+    .contacts__time {
+        width: auto;
+        line-height: 1.4;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media (max-width: 389px) {
+    .breadcrumbs__link {
+        font-size: 14px;
+    }
+    .breadcrumbs__item {
+        padding-right: 23px;
+    }
+    
+    .map__bg {
+        height: 578px;
+    }
+    
+    .reviews__title {
+        font-size: 31px;
+    }
+    .next {
+        right: 0px;
+    }
+    .prev {
+        left: 0;
+    }
+    .prev, .next {
+        top: 84%;
+    }
+    
+    .tenant__title {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    .rent__slider-button {
+        font-size: 13px;
+    }
+    .slick-slider {
+        padding-top: 50px;
+    }
+    .rent__slider-item {
+        margin-top: 0;
+    }
+    .parking {
+        .slick-slider {
+            padding-top: 0;
+        }
+    }
+    .rent__slider .slick-dots {
+        top: 8px;
+    }
+    .rent__slider .slick-dots button {
+        margin: 0 8px;
+        width: 25px;
+        height: 25px;
+    }
+    .rent__slider-title {
+        font-size: 20px;
+    }
+    .rent__square--title {
+        font-size: 20px;
+    }
+    
+    .footer__box-item {
+        display: block;
+    }
+    .footer__address {
+        font-size: 14px;
+    }
+    .footer__phone {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    
+    .page__bg-title {
+        font-size: 29px;
+    }
+    
+    .breadcrumbs__link {
+        font-size: 13px;
+    }
+    
+    .benefits__box {
+        padding-top: 317px;
+    }
+    .benefits__info-text {
+        font-size: 14px;
+    }
+    
+    .rent__banner-item {
+        padding: 10px 0px;
+    }
+    .rent__slider-measure {
+        padding-right: 13px;
+    }
+    .banner-item__info {
+        font-size: 23px;
+    }
+    
+    .rent__link {
+        text-align: center;
+    }
+    
+    .footer__interested-text {
+        font-size: 26px;
+    }
+    .footer__interested-phone {
+        font-size: 36px;
+    }
+    
+    .footer__menu-link {
+        width: 138px;
+    }
+    
+    .about {
+        min-height: 764px;
+    }
+    .about::before {
+        height: 524px;
+    }
+    
+    .presentation__title {
+        font-size: 17px;
+    }
+    .presentation__text {
+        line-height: 1.4;
+    }
+    
+    .modal__inner {
+        width: 310px;
+    }
+    .modal__info-box {
+        width: 220px;
+    }
+}
+
+// ======== Header ======= //
+// ========Intro======= //
+// ======== News ======= //
+// ========  ======= //
+// ========  ======= //

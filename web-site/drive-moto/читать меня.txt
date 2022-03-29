@@ -1,0 +1,17 @@
+� ����� <div class="product-item__wrapper"> �������� �����  product-item__not-available ���� ��� ������ � ������� !!! ������ ���� ���� ����� � �������!
+
+
+� ����� <a class="product-item product-item--sale"> �������� ����� product-item--sale ���� ���� ������ �� �����! ���� ���� �� �������������� ������!
+
+
+
+
+к этому <div class="product-item__wrapper"> добавить класс  product-item__not-available если нет товара в наличии !!! убрать если есть товар в наличии!
+
+
+к этому <a class="product-item"> добавить класс product-item--sale если есть скидка на товар! если нету то соответственно убрать!
+
+
+
+
+mobile-overflow делаем скролл на мобильной версии
